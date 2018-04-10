@@ -107,7 +107,7 @@ public class BST {
 	    	}
 	    }
 	}
-	
+	 
 	public Node getPredecessor(Node current){
 		if(current.left != null){															//returns predecessor of node right before given value, in order trav.
 			return maxValue(current.left);
