@@ -11,6 +11,7 @@ package checkone;
  */
 import java.util.Random;
 public class SimplexNoise {
+    
      SimplexNoise_octave[] octaves;
     double[] frequencys;
     double[] amplitudes;
